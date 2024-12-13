@@ -152,7 +152,7 @@ public class Apuesta extends javax.swing.JFrame {
      *
      * @param n1
      * @param n2
-     * @return random *(n2-n1+1) + n1
+     * @return
      */
     public int cualquiera(int n1, int n2)
     {
