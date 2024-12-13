@@ -1,21 +1,28 @@
 
 import java.awt.event.KeyEvent;
 
-
-
+/**
+ *
+ * @author 1DAW2425-02
+ */
 public class CrearPartido extends javax.swing.JFrame
 {
    
     
     private Apuesta v;
     
-   
+    /**
+     *
+     */
     public CrearPartido() 
     {
         initComponents();
     }
 
-   
+    /**
+     *
+     * @param ventana
+     */
     public CrearPartido(Apuesta ventana) 
     {
         initComponents();
@@ -70,6 +77,10 @@ public class CrearPartido extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     *
+     * @param p
+     */
     public void agregarPartido(String p)
     {
         v.partidoNuevo(p);
@@ -88,7 +99,10 @@ public class CrearPartido extends javax.swing.JFrame
         }
     }//GEN-LAST:event_tPartidoKeyPressed
 
-    
+    /**
+     *
+     * @param args
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
